@@ -1,0 +1,138 @@
+.londrina-sketch-regular {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.oswald-font {
+  font-family: "Oswald", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    font-optical-sizing: auto;
+   font-weight: 400;
+   font-style: normal;
+  margin: 0;
+  background-color: #3d2e36;
+  text-align: center;
+}
+
+.navigation {
+    padding-top: 1rem;
+    background-color: #1f8bd8;
+    color: #3d2e36;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+li {
+    color: #3d2e36;
+    padding: 0.5rem 1.5rem;
+    margin-right: 1.5rem;
+    display: inline-block;
+}
+
+.intro {
+    background-image: url('/images/nicolas-ladino-silva-o2DVsV2PnHE-unsplash.jpg ');
+    background-position: center;
+    height: 30rem;
+    padding-top: 1rem;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 1rem;
+}
+
+.intro h1 {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f3c118;
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #1f8bd8;
+    opacity: 0.9;
+    font-size: 6rem;
+}
+
+.info {
+    padding: 0 2rem;
+}
+
+.info h2 {
+    color: #1f8bd8;
+    text-decoration: underline;
+}
+
+.info p {
+    color: white;
+}
+
+figure {
+    display: inline-grid;
+    height: 500px;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.meetings h2 {
+  color: #f3c118;
+  padding: 0 2rem;
+  text-decoration: underline;
+}
+
+.meetings h3 {
+    padding: 0 2rem;
+    color: white;
+  }
+
+figcaption {
+    color: #f3c118;
+    text-align: center;
+    font-size: 2rem;
+}
+
+.quote {
+    font-family: "Londrina Sketch", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #f3c118;
+    margin-top: 10rem;
+    padding: 2rem;
+    text-align: center;
+    background-color: #1f8bd8;
+}
+
+.gallery {
+    display: inline-block;
+    padding: 2rem;
+  }
+  
+  .gallery h2  {
+    color: #1f8bd8;
+    text-decoration: underline;
+  }
+
+.gallery img {
+    margin: 1.5%;
+}
+
+footer {
+    padding-top: 1rem;
+    background-color: #1f8bd8;
+    color: #3d2e36;
+}
+
+@media (max-width: 700px) {
+    .intro {
+      overflow: scroll;
+    }
+    }
